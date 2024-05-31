@@ -1,0 +1,30 @@
+GET http://localhost:3000/notes
+Content-Type: application/json
+
+###
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "title": "tugas",
+    "datetime": "2024/09/20 23:59:33",
+    "note": "asjdiawdjawoidawldjawlidjawlijdliawjdilawdliawd"
+}
+
+###
+GET http://localhost:3000/notes/4
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/notes/1
+Content-Type: application/json
+
+{
+    "title": "kerjaan",
+    "datetime": "2024/09/21 22:59:33",
+    "note": "saya sedang mengerjakan pr dari kelvin deadlinenya jumat"
+}
+
+###
+DELETE http://localhost:3000/notes/1
+Content-Type: application/json
